@@ -1,0 +1,7 @@
+# generated files
+*.prep
+/bin/
+.classpath
+.project
+build.sh
+target

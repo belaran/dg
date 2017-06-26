@@ -1,0 +1,23 @@
+body {
+  border : solid green 1px;
+  background-color: black;
+  color : white;
+}
+
+#main {
+  margin : 2%;
+}
+
+#summary {
+  margin: 4%;
+  padding : 15px;
+  border : solid red 1px;
+}
+
+span.summary_title {
+   font-weight: bold;
+}
+
+span.no-ref {
+   font-weight: bold;
+}
