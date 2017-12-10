@@ -15,7 +15,7 @@ class ShadowInitServlet extends HttpServlet {
 
   def calculateExtraPasses(init: Int): String =  if ( --(init)  > 0) (" | " + (--(init) + calculateExtraPasses( --(init) ) ) ) else ""
 
-  def resetMap() = Map( ("sean", (21, false )) , ("sim-eon", (18, false)), ("gretchen", (13,false)), ("bakari", (12,false) ) )
+  def resetMap() = Map( ("sean", (21, false )) , ("sim-eon", (18, false)), ("gretchen", (13,false)), ("eyota", (12,false) ) )
 
   def updateMap(name: String, init: String, isNpc: Boolean) = { map = map.+( (name, (Integer.valueOf(init),isNpc ) ) ) }
 
